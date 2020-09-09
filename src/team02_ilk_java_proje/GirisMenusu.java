@@ -111,7 +111,7 @@ public class GirisMenusu {
             }else if (secim==5){
                 Kampanyalar kampanyalar = new Kampanyalar();
                 kampanyalar.kampanyalarMethod();
-                break;
+                break;//
             }
         }while(secim!=6);
         System.out.println("Bizi tercih ettiginiz icin tesekkur ederiz");
